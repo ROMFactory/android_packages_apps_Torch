@@ -17,7 +17,8 @@
      MA  02110-1301, USA.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="net.cactii.flash2">
+    package="net.cactii.flash2"
+    android:sharedUserId="android.uid.system">
 
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.flash" />
